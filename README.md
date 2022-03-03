@@ -142,5 +142,8 @@ npm install axios bootstrap
 
 ## Modify 
 
-- index.js
+- index.js (Adding one line)
+`import 'bootstrap/dist/css/bootstrap.min.css'`
+
+- app.js this is where we spend most of our time
 
