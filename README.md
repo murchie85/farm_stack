@@ -6,6 +6,20 @@
 - React 
 - Mongo Db
 
+# Contents 
+
+### BACKEND 
+
+1. [Flow](#Flow)
+2. [Dependencies](#Dependencies)
+3. [Setting up mongoDB](#Setting-up-mongoDB)
+4. [MongoDb info](#MongoDb-info)
+5. [CORS](#CORS)
+6. [Run fastapi](#Run-fastapi)
+
+### FRONTEND 
+
+1. [App Creation](#App-Creation)
 
 ## Flow
 
@@ -15,7 +29,7 @@ MongoDB returns data to FastAPI
 Backend using Axios technology sends response to react front end 
 
 
-## Dependencies 
+## Dependencies
 
 ```
 fastapi == 0.65.1      // web framework
@@ -76,7 +90,7 @@ cred in desktop pics loc
 `find_one`, `find`, `insert_one` are all mongo db methods  
 
 
-## cors mixing fastapi and react
+## CORS
   
 We need permission for backend to talk to front end:  
 
@@ -99,6 +113,18 @@ port can be `80`, `443`, `8080` etc.
 
 
 
-## Run fastapi 
+## Run fastapi
 
 `uvicorn main:app --reload`
+
+
+
+
+# FRONT END 
+
+
+## App Creation 
+
+```shell
+npx create-react-app frontend
+```
