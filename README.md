@@ -72,3 +72,24 @@ Or connect to cloud:
 ## MongoDb info
 
 cred in desktop pics loc
+
+
+
+## cors mixing fastapi and react
+
+`from fastapi.middleware.cors import CORSMiddleware`    
+  
+react is port `3000`  
+fastapi is port `8000`  
+
+  
+refers to situation when FE runs on browser, this js code competes with backend.  
+In our case, the backend fastapi server.
+its using a different origin than the front end
+
+**origin** is combination of `protocol`, `domain`, `port`
+
+protocol can be `http` / `http`  
+domain can be `myapp.com`, `localhost`, `localhost.blah.com` etc  
+port can be `80`, `443`, `8080` etc.  
+  
