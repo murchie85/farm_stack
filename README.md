@@ -18,9 +18,20 @@ Backend using Axios technology sends response to react front end
 ## Dependencies 
 
 ```
-npm (to create react app)
-python
-create mongodb account to get free 512mb
+fastapi == 0.65.1      // web framework
+
+uvicorn == 0.14.0      // web server
+
+motor == 2.4.0         // mongodb driver
+
+npm                    // to create react app)
+
+mongoDB account        // optional
+
+mongoCompass           // to view update db
+
+mongo community server // to develop locally 
+
 ```
 
 ## Setting up mongoDB
