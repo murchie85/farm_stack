@@ -73,9 +73,12 @@ Or connect to cloud:
 
 cred in desktop pics loc
 
+`find_one`, `find`, `insert_one` are all mongo db methods  
 
 
 ## cors mixing fastapi and react
+  
+We need permission for backend to talk to front end:  
 
 `from fastapi.middleware.cors import CORSMiddleware`    
   
@@ -93,3 +96,9 @@ protocol can be `http` / `http`
 domain can be `myapp.com`, `localhost`, `localhost.blah.com` etc  
 port can be `80`, `443`, `8080` etc.  
   
+
+
+
+## Run fastapi 
+
+`uvicorn main:app --reload`
