@@ -1,5 +1,7 @@
 # FARM stack 
 
+
+![](resources/main.png)
 - FastAPI
 - React 
 - Mongo Db
