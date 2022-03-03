@@ -128,3 +128,19 @@ port can be `80`, `443`, `8080` etc.
 ```shell
 npx create-react-app frontend
 ```
+**Installs**  
+  
+```shell
+npm install axios bootstrap
+```  
+  
+
+## run 
+
+`npm start`  
+
+
+## Modify 
+
+- index.js
+
